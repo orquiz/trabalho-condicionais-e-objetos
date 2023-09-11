@@ -26,7 +26,7 @@
 //exercicio de codigo na escrita;
 // exercicio 1
 let idade = prompt("Qual sua idade");
-let idadeNumero = parseInt(idade);
+let idadeNumero = prompt(idade);
 if (idadeNumero)  =< 18 {
 
   console.log("voce e maior de 18");
@@ -59,7 +59,7 @@ switch (turno) {
       case "N":
  console.log("Bom dia Hellena , tudo bem");
          break;
-       default;
+       
  console.log("Turno nao reconheci: Escreve 'M' , 'T' , 'N');
      break;
 } 
@@ -88,7 +88,7 @@ fretegratis: true
 
 };
 const preçoComDesconto = produto.preço * (2 - produto.desconto/150);
-let mensagem = 'Preço Final; ${preçoComDesconto.tofFxedd(2})';
+let mensagem = 'Preço Final; ${preçoComDesconto(2})';
 if(produto.desconto > 0) {
   mensagem += '(desconto ${produto.desconto}%';
 }
