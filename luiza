@@ -1,0 +1,99 @@
+//11.09.23
+// Luiza Orquiz
+
+// Exercicio 1
+//A: ele  identifica como Alice pode ser maior 18
+
+// B: numero for maior da idade (<) sera impresso Alice pode dirigir
+// se o numero for menor (>) sera impresso que Alice nao  pode dirigir
+
+//Exercicio 2
+//A: o objeto do codigo e verificar se o animal e carnivoro ou nao
+//B: 'O  leao e carnivoro '
+
+//Exercicio 3
+//A: o codigo verifica o numero for menor que 5  e imprime 'o numero e maior 5',
+// se e verdadeiro caso contrario vai imprimir "o numero e menor ou igual  do que 5",
+
+//B: o codigo em seguida vai ver  o numero par ou impar e vai imprimir " o numero par", 
+// for verdadeiro ao contrario " o numero e impar";
+// se o numero for maior que 5 
+// " O numero e par "
+
+
+//Exercicio 4
+/*
+//exercicio de codigo na escrita;
+// exercicio 1
+let idade = prompt("Qual sua idade");
+let idadeNumero = parseInt(idade);
+if (idadeNumero)  =< 18 {
+
+  console.log("voce e maior de 18");
+}else{
+  console.log("voce e menor de idade");
+}
+ //Exercicio 2
+ const turno =prompt("qual turno voce estuda? Digite 'm' para matutino, 'T' para tarde ou 'N' para noturno");
+ if (turno ==="M") [
+  console.log("Boa Tarde");
+  { else if (turno ==="T") {
+   console.log("Bom Dia");  
+   } else if (turno === "N"){
+    console.log("Boa Noite");
+   } else {
+    console.log("Turno nao reconhecido. por Fvaor, Digite 'M' para matutino ou 'T' para tarde , 'N' para noturno);
+   } */
+ 
+
+//Exercicio 3
+/*
+const turno = prompt (" Qual turno voce estuda? Escreve 'M para matutino' ou'N para noturno' , 'T para tarde ");
+switch (turno) {
+  case "M":
+  console.log("Boa tarde");
+    break;
+   case "T":
+ console.log("Ola senhora Hellena");
+      break;
+      case "N":
+ console.log("Bom dia Hellena , tudo bem");
+         break;
+       default;
+ console.log("Turno nao reconheci: Escreve 'M' , 'T' , 'N');
+     break;
+} 
+ //Exercicio 4
+ /*
+ const aluno = {
+  nome = "Hellena"
+idade = 20, 
+tipoDeCurso = "Administraçao",
+temBolsa = false
+ };
+ if(aluno.idade < 25 && aluno.tipoDeCurso ==== "Administraçao" && aluno.temBolsa) {
+  console.log("Voce pode se candidatar a uma bolsa de estudos!");
+ } else {
+console.log("Voce nao atende aos nossos requisitos para a bolsa");
+ } */
+
+
+// Exercicio 5
+/*
+const produto = {
+nome:  "Roupa"
+preço: 150,
+desconto: 30
+fretegratis: true
+
+};
+const preçoComDesconto = produto.preço * (2 - produto.desconto/150);
+let mensagem = 'Preço Final; ${preçoComDesconto.tofFxedd(2})';
+if(produto.desconto > 0) {
+  mensagem += '(desconto ${produto.desconto}%';
+}
+if(produto.fretegratis) {
+  mensagem += "(Frete.Gratis)"; 
+}
+console.log(mensagem); 
+}/*
